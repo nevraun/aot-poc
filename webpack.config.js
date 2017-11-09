@@ -808,8 +808,10 @@ module.exports = {
         ]
       },
       {
-        "test": /\.ts$/,
-        "loader": "@ngtools/webpack"
+        "test": /(?:\.ngfactory\.js|\.ngstyle\.js|\.ts)$/,
+        "use": [
+          "@ngtools/webpack"
+        ]
       }
     ]
   },
@@ -915,7 +917,6 @@ module.exports = {
       },
       "sourceMap": true,
       "tsConfigPath": "src\\tsconfig.app.json",
-      "skipCodeGeneration": true,
       "compilerOptions": {}
     })
   ],
