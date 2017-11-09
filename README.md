@@ -13,7 +13,7 @@ Running: 'npm install -g @angular/cli'
 Yarn as package manager (https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5)
 Running: 'ng set --global packageManager=yarn'
 
-# Project
+## Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 Running: 'ng new' (existing project repository from git)
