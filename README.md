@@ -8,4 +8,4 @@ Yarn as package manager (https://medium.com/@beeman/using-yarn-with-angular-cli-
 
 ## Webpack
 
-Integration in progress...
+Running 'ng eject' (http://www.dzurico.com/angular-cli-with-the-super-powers)
